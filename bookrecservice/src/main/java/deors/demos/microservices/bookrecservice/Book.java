@@ -7,7 +7,19 @@ import javax.persistence.Id;
 @Entity
 public class Book {
 
-    @Id @GeneratedValue private Long id;
+	public Book() {
+		super();
+		this.id = null;
+		this.title = null;
+		this.author = null;
+	}
+    public Book(Long id, String title, String author) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.author = author;
+	}
+	@Id @GeneratedValue private Long id;
     private String title;
     private String author;
 	public Long getId() {

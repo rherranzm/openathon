@@ -6,6 +6,10 @@ public class Book {
     private String title;
     private String author;
     
+    public Book() {
+    	super();
+    }
+    
 	public Book(Long id, String title, String author) {
 		super();
 		this.id = id;
