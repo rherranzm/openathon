@@ -1,4 +1,4 @@
-package rhm.acc.microservices.velocityTest;
+package deors.demos.microservices.velocitytestservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class VelocityTestApplicationTests {
+public class VelocitytestserviceApplicationTests {
 
 	@Test
 	public void contextLoads() {

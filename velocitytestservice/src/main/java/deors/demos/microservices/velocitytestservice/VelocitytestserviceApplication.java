@@ -1,13 +1,13 @@
-package rhm.acc.microservices.velocityTest;
+package deors.demos.microservices.velocitytestservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @org.springframework.cloud.client.discovery.EnableDiscoveryClient
-public class VelocityTestApplication {
+public class VelocitytestserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VelocityTestApplication.class, args);
+		SpringApplication.run(VelocitytestserviceApplication.class, args);
 	}
 }
